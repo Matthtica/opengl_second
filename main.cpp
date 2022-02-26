@@ -61,7 +61,7 @@ int main() {
 
         // draw our first triangle
         float time_value = glfwGetTime();
-        float value = (cos(time_value) / 2.0f) + 0.5f;
+        float value = (sin(time_value) / 2.0f) + 0.5f;
         int vertexColorLocation = glGetUniformLocation(shader.id, "globalColor");
         glUniform4f(vertexColorLocation, value, 1.0f-value, 0.0f, 1.0f);
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
