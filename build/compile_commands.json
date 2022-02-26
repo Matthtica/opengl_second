@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/karl/stuffs/opengl_proj/build",
+  "command": "/usr/bin/c++  -I/home/karl/stuffs/opengl_proj/glad/include -std=gnu++20 -o CMakeFiles/Learn.dir/main.cpp.o -c /home/karl/stuffs/opengl_proj/main.cpp",
+  "file": "/home/karl/stuffs/opengl_proj/main.cpp"
+},
+{
+  "directory": "/home/karl/stuffs/opengl_proj/build/glad",
+  "command": "/usr/bin/cc  -I/home/karl/stuffs/opengl_proj/glad/include  -o CMakeFiles/glad.dir/src/glad.c.o -c /home/karl/stuffs/opengl_proj/glad/src/glad.c",
+  "file": "/home/karl/stuffs/opengl_proj/glad/src/glad.c"
+}
+]
